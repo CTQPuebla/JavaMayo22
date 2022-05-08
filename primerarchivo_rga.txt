@@ -1,0 +1,2 @@
+en la rama main puede que no te encuentres nada o el codigo de una version estable
+no subir codigo en la rama principal tampoco develop _ rga
