@@ -1,5 +1,4 @@
 package com;
-
 public class Principal {
 	
 	public static void main(String[] args) {
@@ -36,7 +35,7 @@ public class Principal {
 //		if(!x.isEmpty()) {
 //			System.out.println("No esta vacia");
 //		}else {
-//			System.out.println("Sí está vacia");
+//			System.out.println("Sï¿½ estï¿½ vacia");
 //		}
 //		if(z != y) {
 //			System.out.println("Es diferente");
