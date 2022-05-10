@@ -1,104 +1,110 @@
 package com;
-
-import java.util.Scanner;
-
 public class Principal {
+	
 	public static void main(String[] args) {
-
-		// 1
-		Scanner sc = new Scanner(System.in); // Leer valores desde teclado
-		// Condiciones iniciales
-		int a = 0;
-//		int b = 0;
+		
+		/*
+		 * if(condicion){
+		 * 		codigo a ejecutarse
+		 * 		condicion = true
+		 * }else{
+		 * 		codigo a ejecutarse cuando condicion = false
+		 * }
+		 */
+		
+		//String x = "saxw13232311";
+//		int y = 1;
+//		int z = 2;
+		
+//		if(x.length() < 10) {
+//			System.out.println("Si lo cumple");
+//		}else {
+//			System.out.println("No lo cumple");
+//		}
 //		
-//		System.out.println("Ingresa el primer numero");
-//		a = sc.nextInt();
-//		System.out.println("Ingresa el segundo numero");
-//		b = sc.nextInt();
-//		
-//		//Proceso
-//		if(a==b) { // false
+//		if(y == 2 && z == 1) {
 //			System.out.println("Son iguales");
-//		}else if(a>b) {  // false
-//			System.out.println("El primero es mayor");			
 //		}else {
-//			System.out.println("El segundo es mayor");
+//			System.out.println("No son iguales");
 //		}
-		// 2 ----------------------------------------------------------------
-
-//		System.out.println("Ingresa un numero");
-//		int x = sc.nextInt();
+//		if(x.length() > 10 || z > 10) {
+//			System.out.println("Cumple la condicion");
+//		}else {
+//			System.out.println("No cumple la condicion");
+//		}
+//		if(!x.isEmpty()) {
+//			System.out.println("No esta vacia");
+//		}else {
+//			System.out.println("S� est� vacia");
+//		}
+//		if(z != y) {
+//			System.out.println("Es diferente");
+//		}else {
+//			System.out.println("No es diferente");
+//		}
 //		
-//		if(x%2 == 0) {
-//			System.out.println("Si es par");
+//		if (y<5) {
+//			System.out.println("1");
+//		}else if (y<10) {
+//			System.out.println("2");
+//		}else if (y<15) {
+//			System.out.println("3");
 //		}else {
-//			System.out.println("Impar");
+//			System.out.println("4");
 //		}
-		// 3 ----------------------------------------------------------------
-//		System.out.println("Ingresa el numero 1");
-//		double xx = sc.nextDouble();
-//		System.out.println("Ingresa el numero 2");
-//		double xy = sc.nextDouble();
+		
+//		switch (z) {
+//		case 1:
+//			System.out.println("Caso 1");
+//			break;
+//		case 2:
+//			System.out.println("Caso 2");
+//			break;
+//		default:
+//			System.out.println("Caso default");
+//			break;
+//		}
+		
+		//while, do-while, for, foreach
+		
+		int x = 5;
+		int y = 0;
+		
+//		while(x < 10 && y < 5) {
+//			System.out.println("X: " + x);
+//			System.out.println("Y: " + y);
+//			x++;
+//			y++;
+//		}
 //		
-//		if(xy==0) {
-//			System.out.println("Error");
-//		}else {
-//			//Jerarquia de operadores
-//			double aa=xx/xy;
-//			System.out.println("Resultado: "+ aa);
+//		do {
+//			System.out.println("Hola");
+//			x++;
+//		} while (x < 10);
+		
+//		for (int i = 0; i <= 10; i++) {
+//			System.out.println("hola: " + i);
 //		}
-
-		// -------------------------------------------------------------------
-//		System.out.println("Ingresa una letra");
-//		String letra = sc.nextLine();
-//		
-// 		if(letra.equals(letra.toUpperCase())) {
-//			System.out.println("Si es igual");
-//		}else {
-//			System.out.println("No lo es");
-//		}
-
-		// ----------------------------------------
-		// Nota 5, edad 18, sexo M = posible
-		// Nota 5, edad 18, sexo F = aceptada
-		int nota = 0;
-		int edad = 0;
-		String sexo = "";
-		System.out.println("Ingresa la nota");
-		nota = sc.nextInt();
-		System.out.println("Ingresa la edad");
-		edad = sc.nextInt();
-		sc.nextLine();
-		System.out.println("Ingresa el sexo");
-		sexo = sc.nextLine();
-
-		if (nota >= 5 && edad >= 18 && sexo.equals("M")) {
-			System.out.println("Solicitud posible");
-		} else if (nota >= 5 && edad >= 18 && sexo.equals("F")) {
-			System.out.println("Solicitud aceptada");
-		} else {
-			System.out.println("No aceptada");
-		}
-
-		// 1-12
-		System.out.println("Ingresa un numero del 1 al 12");
-		int mes = sc.nextInt();
-
-		switch (mes) {
-
-		case 1:
-			System.out.println("31 dias");
-			break;
-
-		case 2:
-			System.out.println("28 dias");
-			break;
-			
-			
-			default:
-				System.out.println("No existe ese mes");
-
-		}
-
+		
+		ProblemarioCiclos pbc = new ProblemarioCiclos();
+		//pbc.tablaMultiplicar();
+		//pbc.tablaMultiplicarTeclado();
+		//pbc.esStringPalindromo();
+		//pbc.existeLetra();
+		//pbc.relojDigital();
+		//pbc.inversionBanco1();
+		//pbc.inversionBanco2();
+		//pbc.menorAMayor();
+		//pbc.numeroPares();
+		//pbc.positivosNegativos();
+		//pbc.dibujarCuadrado();
+		//pbc.calcularSumaMedia();
+		//pbc.calificaciones();
+		//pbc.frutas();
+		//pbc.ejercicio();
+		//pbc.clase1();
+		//pbc.escribirArchivo();
+		pbc.ejercicio2();;
 	}
+	
 }
