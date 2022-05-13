@@ -26,9 +26,9 @@ public class Principal {
 		a1.llenar1(llenarA);
 		a1.llenar2(llenarB);
 		System.out.println(llenarA);
-		System.out.println("Introduzca el nombre del contacto que desea borrar:");
-		k1 = sc.next();
-		k2 = a1.getAgendaN().get(k1).getCorreo();
+		System.out.println("Introduzca el correo del contacto que desea borrar:");
+		k2 = sc.next();
+		k1 = a1.getAgendaC().get(k2).getNombre();
 		a1.llenar3(k1, k2);
 		a1.borrar();
 		System.out.println(a1.getAgendaN());

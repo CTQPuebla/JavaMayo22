@@ -3,7 +3,7 @@ package com;
 import java.util.HashMap;
 
 public class Agenda {
-	
+
 	String key1, key2;
 	HashMap<String,Contacto> agendaN = new HashMap<>();
 	HashMap<String,Contacto> agendaC = new HashMap<>();
@@ -79,5 +79,4 @@ public class Agenda {
 		this.agendaN.remove(this.key1);
 		this.agendaC.remove(this.key2);
 	}
-	
 }

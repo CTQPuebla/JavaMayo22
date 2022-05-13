@@ -1,6 +1,7 @@
 package com;
 
 public class Contacto {
+
 	String nombre, correo, numero;
 	public Contacto() {
 		
@@ -33,6 +34,5 @@ public class Contacto {
 	public String toString() {
 		return "Contacto [nombre=" + nombre + ", correo=" + correo + ", numero=" + numero + "]";
 	}
-	
 	
 }
