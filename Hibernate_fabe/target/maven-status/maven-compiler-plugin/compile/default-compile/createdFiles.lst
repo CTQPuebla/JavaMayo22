@@ -1,0 +1,11 @@
+com\dao\CategoriasDAO.class
+com\dao\ProductosDAO.class
+com\entity\Categorias.class
+com\dao\InventarioDAO.class
+com\entity\Productos.class
+com\general\Metodos.class
+com\services\CategoriasService.class
+com\services\ProductosService.class
+com\entity\Inventario.class
+com\services\InventarioService.class
+com\general\Status.class
