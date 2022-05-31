@@ -1,0 +1,5 @@
+en la rama main puede que no te encuentres nada o el codigo de una version estable
+no subir codigo en la rama principal tampoco develop _ rga
+
+las comparaciones las vamos a apuntar a develop
+revisar el estado de la rama
